@@ -1,12 +1,8 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
 using System.Collections.Specialized;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace NevaCloud.FalconConverters
+namespace FC
 {
     /// <summary>
     /// Generic conver methods that perform conversion to T class 
@@ -24,7 +20,7 @@ namespace NevaCloud.FalconConverters
         /// <returns></returns>
         public static T Turn<T>(NameValueCollection container, string key, T defaultVal)
         {
-            return (string.IsNullOrEmpty(key) || null == container) ? defaultVal : Generic.Turn<T>(container[key], defaultVal);
+            return (string.IsNullOrEmpty(key) || null == container) ? defaultVal : Turn<T>(container[key], defaultVal);
         }
 
         /// <summary>
@@ -59,7 +55,7 @@ namespace NevaCloud.FalconConverters
 
         public static T Turn<T>(Hashtable hashtable, string key, T defaultVal)
         {
-            return (string.IsNullOrEmpty(key) || null == hashtable || !hashtable.ContainsKey(key)) ? defaultVal : Generic.Turn<T>(hashtable[key], defaultVal);
+            return (string.IsNullOrEmpty(key) || null == hashtable || !hashtable.ContainsKey(key)) ? defaultVal : Turn<T>(hashtable[key], defaultVal);
         }
 
     }

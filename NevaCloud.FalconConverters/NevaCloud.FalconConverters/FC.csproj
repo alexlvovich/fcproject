@@ -7,8 +7,8 @@
     <ProjectGuid>{FA56FFE9-497E-401A-B667-29B7CF2C7CB9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NevaCloud.FalconConverters</RootNamespace>
-    <AssemblyName>NevaCloud.FalconConverters</AssemblyName>
+    <RootNamespace>FC</RootNamespace>
+    <AssemblyName>FC</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,6 +44,9 @@
     <Compile Include="Configuration.cs" />
     <Compile Include="DataBase.cs" />
     <Compile Include="Generic.cs" />
+    <Compile Include="ObjectCopier.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Web.cs" />
   </ItemGroup>
