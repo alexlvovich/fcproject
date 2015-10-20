@@ -21,13 +21,13 @@
     <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
     <copyright>Copyright 2015</copyright>
     <dependencies>
-       
+
     </dependencies>
     <references></references>
     <tags></tags>
   </metadata>
   <files>
-    <file src="bin\release\*.dll" target="lib" />
-    <!--<file src="lib\**" target="lib" />-->
+    <!--<file src="bin\release\*.dll" target="lib" />-->
+    <file src="lib\**" target="lib" />
   </files>
 </package>

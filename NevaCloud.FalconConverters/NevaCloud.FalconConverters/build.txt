@@ -1,0 +1,3 @@
+﻿1. build and copy assembly for each framework
+2. run: nuget pack FC.nuspec
+3. run: nuget push FC.1.1.x.nupkg
