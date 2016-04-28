@@ -53,12 +53,6 @@
     <Compile Include="TransformTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\NevaCloud.FalconConverters\FC.csproj">
-      <Project>{fa56ffe9-497e-401a-b667-29b7cf2c7cb9}</Project>
-      <Name>FC</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
