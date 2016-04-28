@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>FC</RootNamespace>
     <AssemblyName>FC</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="src\Configuration.cs" />
     <Compile Include="src\DataBase.cs" />
+    <Compile Include="src\Data\DataAccessBase.cs" />
     <Compile Include="src\Generic.cs" />
     <Compile Include="src\ObjectCopier.cs">
       <SubType>Code</SubType>

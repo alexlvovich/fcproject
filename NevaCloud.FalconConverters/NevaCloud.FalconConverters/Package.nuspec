@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>FC</id>
-    <version>1.1.3</version>
+    <version>1.2.0</version>
     <title>FC</title>
     <authors>Alex Lvovich</authors>
     <owners></owners>
@@ -12,14 +12,14 @@
     <releaseNotes>
     </releaseNotes>
     <summary>
-      This package will help you to accomplish basic conversion tasks.
+      This package will help you to accomplish basic conversion tasks. 
     </summary>
     <language>en-US</language>
     <projectUrl>https://www.nuget.org/packages/FC/</projectUrl>
     <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
-    <copyright>Copyright 2015</copyright>
+    <copyright>Copyright 2016</copyright>
     <dependencies>
        
     </dependencies>

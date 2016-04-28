@@ -213,3 +213,4 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+/NevaCloud.FalconConverters/packages/Newtonsoft.Json.7.0.1
