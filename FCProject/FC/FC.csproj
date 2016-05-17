@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>FC</RootNamespace>
     <AssemblyName>FC</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -73,7 +73,6 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="build.txt" />
-    <Content Include="lib\net35\FC.dll" />
     <Content Include="lib\net40\FC.dll" />
     <Content Include="lib\net45\FC.dll" />
     <Content Include="lib\net46\FC.dll" />
