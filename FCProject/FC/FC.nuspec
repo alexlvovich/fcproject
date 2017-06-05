@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>FC</id>
-    <version>1.2.0</version>
+    <version>1.2.1</version>
     <title>FC</title>
     <authors>Alex Lvovich</authors>
     <owners></owners>
@@ -19,7 +19,7 @@
     <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
-    <copyright>Copyright 2016</copyright>
+    <copyright>Copyright 2017</copyright>
     <dependencies>
 
     </dependencies>
